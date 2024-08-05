@@ -5,7 +5,7 @@ import itsme from './assets/itsmehalf.jpg';
 import './App.css';
 
 import newsb from './assets/newsblock.png';
-  
+
 
 function App() {
   return (
@@ -66,7 +66,7 @@ function App() {
         <div className="justify-start pt-10">
           <img
             src={itsme}
-            className="rounded-full image-avatar size-44"
+            className="rounded-full image-avatar size-32"
           />
 
           <p className="custom-font pt-5">Atharv More</p>
