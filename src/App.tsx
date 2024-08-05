@@ -1,10 +1,10 @@
 import GitHubCalendar from 'react-github-calendar';
 // import useSmoothScroll from './useSmoothScroll';
 
-import avatar from './assets/avatar.jpg';
+import itsme from './assets/itsmehalf.jpg';
 import './App.css';
 
-import credio from './assets/credio.jpg';
+import newsb from './assets/newsblock.png';
 import image from './assets/image.png';
 
 import image_2 from './assets/image_2.png';
@@ -62,7 +62,7 @@ function App() {
                     href="#miscellaneous"
                     className="navbar-heading block rounded px-3 py-2 text-center hover:text-gray-400 sm:text-gray-600 md:p-0 md:text-gray-600 dark:text-gray-600"
                   >
-                    Miscellaneous
+                    Milestone
                   </a>
                 </li>
               </ul>
@@ -72,19 +72,18 @@ function App() {
         {/* skill issue */}
         <div className="justify-start pt-10">
           <img
-            src={avatar}
-            className="rounded-full image-avatar grayscale hover:grayscale-0"
+            src={itsme}
+            className="rounded-full image-avatar size-44"
           />
 
-          <p className="custom-font pt-5">Badri Vishal Mani Tripathi</p>
+          <p className="custom-font pt-5">Atharv More</p>
           <p className="font-dis">
-            Competitive Programming • Frontend Development
+            Engineer • Frontend Development
           </p>
 
           <p className="whytho pt-6 text-gray-600">
-            A 13 year old doing competitive programming and frontend
-            development. I've been doing competitive programming and web dev
-            from the past 5 years. Welcome to my portfolio, here you will find
+          Know as a Multicellular Human Frontend Engineer @wne_3
+          . Tech Explorer. Problem Solver . Web Developer . Flutter Enthusiast . Web3 Enthusiast . Welcome to my portfolio, here you will find
             everything I've done in my professional life.
           </p>
 
@@ -144,7 +143,7 @@ function App() {
           <div className="pt-0">
             <div className="experience-flex">
               <img
-                src="/oreon.png"
+                src="https://media.licdn.com/dms/image/C560BAQHPolOhyyz_YQ/company-logo_200_200/0/1664032534485/wne3_logo?e=1730937600&v=beta&t=0Oqo1c5wnF_gX5ZklPnN7cIidOErvE9b-Mohqy4SKqk"
                 className="rounded-full grayscale hover:grayscale-0"
                 width="50"
                 height="50"
@@ -152,14 +151,14 @@ function App() {
 
               <div className="pt-0">
                 <div className='skills-flex'>
-                  <h1>Oreon Project</h1>
+                  <h1>WNE3 </h1>
                   <p className='pt-1 experience-skill custom-pad'>Jul 2024 - Present</p>
                 </div>
-                <p className="yewala">Web Developer</p>
+                <p className="yewala">Frontend Engineer</p>
               </div>
               <div>
                 <p className="whytho text-gray-600">
-                  A part of this exciting and awesome project. Part of the marketing team as well as the web development team.
+                Working in an IIT-BH-based startup developing features for a future e-commerce platform with Gen-AI. I test APIs of microservices, develop Gen-AI mockups, and research SLM and services. Additionally, I build prototype projects for testing, UI/UX analysis, and developing the best render patterns using APIs, BaaS tools, React Test, Material Design, and Figma System Design, collaborating with industrial experts.
                 </p>
               </div>
             </div>
@@ -168,7 +167,7 @@ function App() {
           <div className="pt-1">
             <div className="experience-flex">
               <img
-                src="https://media.licdn.com/dms/image/D560BAQFj-7E-eQe8KA/company-logo_100_100/0/1721544337699/designmentorweb_logo?e=1730332800&v=beta&t=QLnekH8hh_BqJXwDXuODdY5d3Yd1VfxgEBUo2d7gTyg"
+                src="data:image/png;base64,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"
                 className="rounded-full grayscale hover:grayscale-0"
                 width="50"
                 height="50"
@@ -176,43 +175,21 @@ function App() {
 
               <div className="pt-0">
                 <div className='skills-flex'>
-                  <h1>Design Mentor</h1>
-                  <p className='pt-1 experience-skill'>Jun 2024 - Present</p>
+                  <h1>EZPZ Solution</h1>
+                  <p className='pt-1 experience-skill'>Jun 2023 - Jul 2023</p>
                 </div>
                 <p className="yewala">Software Engineer</p>
               </div>
               <div>
                 <p className="whytho text-gray-600">
-                  Managed the marketing of Design Mentor and the overall UI design and website. Made more than 23+ UI designs that will be launched soon.
+                Involved in web scraping for different hardware and GPUs on the internet, validating invoices and products, and listing them on a WordPress website. Additionally, I build prototype projects for testing using APIs, BaaS tools, React Test, Material Design, and Figma.
                 </p>
               </div>
             </div>
           </div>
 
           <div className="pt-1">
-            <div className="experience-flex">
-              <img
-                src={credio}
-                className="rounded-full grayscale hover:grayscale-0"
-                width="50"
-                height="50"
-              />
-
-              <div className="pt-0">
-                <div className='skills-flex'>
-                  <h1>Crediometer</h1>
-                  <p className='pt-1 custom-pad experience-skill'>Sep 2021 - Jan 2022</p>
-                </div>
-                <p className="yewala">Frontend Developer</p>
-              </div>
-              <div>
-                <p className="whytho text-gray-600">
-                  Created multiple web pages for Crediometer using React JS and
-                  Bootstrap CSS. This internship was around 5 months long and I
-                  learned many new skills.
-                </p>
-              </div>
-            </div>
+          
           </div>
         </div>
 
@@ -225,14 +202,13 @@ function App() {
         <h1 className="custom-font-2 pb-8">Projects</h1>
         <div className="flexbox-grid-c flexbox-grid-c-cols-2 gap-0 pb-14">
           <div>
-            <h1 className="wahre">• Amazon Clone</h1>
+            <h1 className="wahre">• NewsBlock</h1>
             <p className="whytho pt-1 text-gray-600">
-              A simple and clean amazon clone built using React JS. Firebase is
-              used for authentication and database.{' '}
+            Developing a Decentralized news platform with immutable, censorship-resistant content using Polygon zkEVM, Solidity, React, Zustand, and the Reclaim Protocol for user verification and on-chain exploration.{' '}
             </p>
 
             <div className="flexbox-grid-c flexbox-grid-c-cols-2">
-              <a href="https://clone-52f9c.web.app" className="wahatag pt-4">
+              <a href={newsb} className="wahatag pt-4">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   className="ionicon s-ion-icon"
@@ -261,18 +237,17 @@ function App() {
           </div>
           <div className="px-10">
             <img
-              src={image}
-              className="rounded grayscale hover:grayscale-0 pro-image"
+              src={newsb}
+              className="rounded pro-image"
               width="300"
             />
           </div>
         </div>
         <div className="flexbox-grid-c flexbox-grid-c-cols-2 gap-0 pb-12">
           <div>
-            <h1 className="wahre">• Quotes Generator</h1>
-            <p className="whytho pt-1 text-gray-600">
-              A quote generator app written in Python. It generates quote on a
-              random or on a given topic using QuoteAPI.
+            <h1 className="wahre">• AgroLab</h1>
+            <p className="whytho pt-1 text-gray-600 ">
+            Crop Disease Detection App that identifies crop diseases through camera or gallery scans. It provides the latest agricultural information, tips, pictures, and videos, helping farmers prevent dead stock and losses by making informed decisions and taking preventive measures.
             </p>
 
             <div className="flexbox-grid-c flexbox-grid-c-cols-2">
@@ -293,8 +268,8 @@ function App() {
           </div>
           <div className="px-10">
             <img
-              src={image_2}
-              className="rounded grayscale hover:grayscale-0 pro-image"
+              src="https://github.com/inline-arc/AgroLab/blob/master/assets/agrolablogo.png?raw=true"
+              className="rounded pro-image scale-75"
               width="400"
             />
           </div>
@@ -334,7 +309,7 @@ function App() {
         </div>
 
         <h1 className="baharmil pb-5 pt-8 text-center">GitHub Contributions</h1>
-        <GitHubCalendar username="aryannn053" year={2024} colorScheme="light" />
+        <GitHubCalendar username="inline-arc" year={2024} colorScheme="light" />
 
         <div className="pb-12 pt-12">
           <hr />
@@ -470,16 +445,9 @@ function App() {
       </div>
 
       <section id="miscellaneous">
-        <h1 className="custom-font-2">Miscellaneous</h1>
+        <h1 className="custom-font-2">Milestones</h1>
         <br />
-        <iframe
-          src="https://open.spotify.com/embed/playlist/4jV01hXepOfgciBEEf7bCw?utm_source=generator&theme=0"
-          width="100%"
-          height="352"
-          frameBorder="0"
-          allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-          loading="lazy"
-        ></iframe>
+       
       </section>
 
       <div className="pb-12 pt-12">
@@ -487,7 +455,7 @@ function App() {
       </div>
 
       <p className="whytho pb-12 text-center text-gray-600">
-        © Aryan Tripathi | {new Date().getFullYear()}
+        © Atharv More | {new Date().getFullYear()}
       </p>
     </div>
   );
