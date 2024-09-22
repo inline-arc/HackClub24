@@ -1,10 +1,11 @@
 import GitHubCalendar from 'react-github-calendar';
 // import useSmoothScroll from './useSmoothScroll';
 
+
 import itsme from './assets/itsmehalf.jpg';
 import './App.css';
-
 import newsb from './assets/newsblock.png';
+import { Analytics } from "@vercel/analytics/react"
 
 
 function App() {
@@ -71,6 +72,7 @@ function App() {
 
           <p className="custom-font pt-5">Atharv More</p>
           <p className="font-dis">
+          <Analytics />
             Engineer • Frontend Development
           </p>
 
@@ -112,7 +114,7 @@ function App() {
               </svg>
               LinkedIn
             </a>
-            <a href="https://x.com/aryantri13" className="wahatag">
+            <a href="https://x.com/AtharvM46335572" className="wahatag">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="ionicon s-ion-icon"
